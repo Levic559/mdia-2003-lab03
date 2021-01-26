@@ -728,6 +728,7 @@ footer {
   flex: 2.5;
   display: flex;
 }
+
 .infoitem {
   flex: 1 1 200px;
   height: 100%;
@@ -776,20 +777,18 @@ footer {
   .personalinfo__imgbox {
     margin-left: 10px;
   }
-
   .personalinfo__text {
     margin-left: 10px;
     width: 250px;
   }
-
   .infoitems {
     width: 375px;
   }
-
-  .infoitems > div:nth-last-child(-n + 2) {
+  
+  .infoitems  > div:nth-last-child(-n + 2) {
     display: none;
   }
-  .infoitems > div:first-child {
+  .infoitems  > div:first-child {
     background-color: black;
   }
   .blackcolor {
