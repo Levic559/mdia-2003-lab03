@@ -268,8 +268,8 @@ textarea {
   /* background-color:grey  ; */
   box-sizing: border-box;
   display: flex;
-flex-wrap: wrap;
-justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .container--lg {
@@ -326,6 +326,9 @@ h5 {
   padding: 0;
   margin: 0;
 }
+h6{
+  display: none;
+}
 p {
   font-size: 14px;
   line-height: 14px;
@@ -349,11 +352,11 @@ nav {
   justify-content: flex-start;
   align-items: center;
 }
-.nav__logo i{
+.nav__logo i {
   margin-left: 10px;
   color: grey;
 }
-.menutoggle{
+.menutoggle {
   display: none;
 }
 
@@ -365,8 +368,8 @@ nav {
   justify-content: center;
   align-items: center;
 }
-@media only screen and (max-width: 1140px){
-  nav.container{
+@media only screen and (max-width: 1140px) {
+  nav.container {
     width: 860px;
   }
   .nav__logo {
@@ -377,35 +380,34 @@ nav {
   }
 }
 @media only screen and (max-width: 450px) {
-  nav.container{
+  nav.container {
     width: 375px;
   }
-  .nav__logo{
+  .nav__logo {
     justify-content: flex-start;
     padding-left: 5px;
-    
   }
-  
+
   .nav__menulist {
-   display: none;
+    display: none;
   }
-  .menutoggle{
+  .menutoggle {
     width: 50px;
     height: 50px;
-    display:block;
+    display: block;
     position: absolute;
     right: 50px;
-   }
-    .menutoggle  span:first-child{
+  }
+  .menutoggle span:first-child {
     margin-top: 10px;
   }
-  .menutoggle span{
+  .menutoggle span {
     display: block;
     width: 30px;
     height: 2px;
     background-color: #cbcbcb;
     margin-bottom: 10px;
-    margin-left: 10PX;
+    margin-left: 10px;
   }
 }
 .bgc--green {
@@ -423,25 +425,24 @@ nav {
 .bgc--blue {
   background-color: rgb(19, 71, 167);
 }
-.bgc--grey{
+.bgc--grey {
   background-color: grey;
 }
-.nav__menulist i{
+.nav__menulist i {
   color: #fff;
-  margin-top:20px;
+  margin-top: 20px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: rgba(256,256,256,0.2);
+  background-color: rgba(256, 256, 256, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-.nav__menulist p{
+.nav__menulist p {
   color: #fff;
-  margin-top:25px;
-  margin-left:-60px;
+  margin-top: 25px;
+  margin-left: -60px;
 }
 .jumbotro {
   width: 1240px;
@@ -452,9 +453,9 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start ;
+  align-items: flex-start;
 }
-.jumbotro button{
+.jumbotro button {
   height: 40px;
   /* text-align: center;
   padding: 0, 5px; */
@@ -463,21 +464,21 @@ nav {
   /* border: none; */
   /* border-left: 3px solid ; */
 }
-.borderColor--orange{
+.borderColor--orange {
   border: none;
-border-left:7px solid rgb(238, 163, 24);
+  border-left: 7px solid rgb(238, 163, 24);
 }
-.borderColor--blue{
+.borderColor--blue {
   border: none;
   border-left: 7px solid rgb(18, 181, 245);
 }
-.borderColor--pink{
+.borderColor--pink {
   border: none;
   border-left: 7px solid rgb(245, 101, 125);
 }
 
-@media only screen and (max-width: 1140px){
-  .jumbotro button{
+@media only screen and (max-width: 1140px) {
+  .jumbotro button {
     margin-left: 220px;
   }
 }
@@ -512,11 +513,11 @@ border-left:7px solid rgb(238, 163, 24);
   text-align: center;
   margin: 100px 0;
 }
-.quote span{
+.quote span {
   color: rgb(18, 181, 245);
 }
 @media only screen and (max-width: 450px) {
-  .quote{
+  .quote {
     margin: 0;
   }
 }
@@ -547,7 +548,6 @@ border-left:7px solid rgb(238, 163, 24);
 .subheader__item {
   width: 200px;
   margin: 10px;
- 
 }
 @media only screen and (max-width: 1140px) {
   .subheader__item {
@@ -561,8 +561,8 @@ border-left:7px solid rgb(238, 163, 24);
     width: 375px;
     display: flex;
   }
-  .subheader__item__text{
-    flex:2
+  .subheader__item__text {
+    flex: 2;
   }
 }
 .subheader__item__pic {
@@ -599,25 +599,25 @@ border-left:7px solid rgb(238, 163, 24);
   background: url("http://picsum.photos/400/300?random=8") no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 10px 0;
+  margin: 10px 5px;
 }
 
 .fortablet {
   display: none;
 }
 .color--orange {
-  color:rgb(238, 163, 24)
+  color: rgb(238, 163, 24);
 }
 .color--green {
-  color: rgb(76, 167, 76)
+  color: rgb(76, 167, 76);
 }
-.color--pink{
-  color:  rgb(245, 101, 125);
+.color--pink {
+  color: rgb(245, 101, 125);
 }
-.color--blue{
+.color--blue {
   color: rgb(18, 181, 245);
 }
-.color--lightgrey{
+.color--lightgrey {
   color: lightgray;
 }
 @media only screen and (max-width: 1140px) {
@@ -641,10 +641,10 @@ border-left:7px solid rgb(238, 163, 24);
   justify-content: center;
 }
 .subheader__menubox {
-  width: 460px;
+  width: 450px;
   height: 350px;
   border: 1px solid grey;
-  margin: 10px 0;
+  margin: 10px 5px;
 }
 @media only screen and (max-width: 1140px) {
   .subheader__menubox {
@@ -659,7 +659,7 @@ border-left:7px solid rgb(238, 163, 24);
   }
 }
 .ads {
-  width: 100%;
+  width: 950px;
   display: flex;
   height: 150px;
   justify-content: center;
@@ -667,7 +667,7 @@ border-left:7px solid rgb(238, 163, 24);
 @media only screen and (max-width: 1140px) {
   .ads {
     width: 625px;
-    justify-content: center;
+    
   }
 }
 @media only screen and (max-width: 450px) {
@@ -693,120 +693,109 @@ footer {
   justify-content: flex-start;
 }
 
-.bgc--black{
+.bgc--black {
   background-color: #000;
 }
-.bgc--lightgrey{
-  background-color : lightgray;
+.bgc--lightgrey {
+  background-color: lightgray;
 }
-.personalinfo{
-flex: 1.5;
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-/* width: 100%; */
+.personalinfo {
+  flex: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* width: 100%; */
 }
 
-.personalinfo__imgbox{
+.personalinfo__imgbox {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: url("https://images.unsplash.com/photo-1611607836194-e6eeff3ef49d?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60") no-repeat;
-  background-position: center;
-  background-size: cover;
-  
+  overflow: hidden;
 }
-.imgbox img{
+.imgbox img {
   width: 100%;
   height: 100%;
-  
 }
-.personalinfo__text{
+.personalinfo__text {
   flex: 5;
   margin-left: 30px;
 }
 
-.infoitems{
+.infoitems {
   flex: 2.5;
   display: flex;
-  
-  }
-.infoitem{
+}
+.infoitem {
   flex: 1 1 200px;
   height: 100%;
-  margin:5px 15px;
-  display:flex;
+  margin: 5px 15px;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.socialbox{
+.socialbox {
   flex: 1;
   height: 50px;
-  margin: 5px ;
+  margin: 5px;
   background-color: grey;
   display: none;
 }
-.colorblocks{
-    flex: .35;
-    display: flex;
-    flex-direction: row;
-    padding: 75px 0px;
-   
-    }
-  .blackcolor{
-    flex: 5;
-    height: 100%;
+.colorblocks {
+  flex: 0.35;
+  display: flex;
+  flex-direction: row;
+  padding: 75px 0px;
+}
+.blackcolor {
+  flex: 5;
+  height: 100%;
+}
+.colorblock {
+  flex: 1;
+  height: 100%;
+}
+@media only screen and (max-width: 1140px) {
+  .infoitems {
+    width: 625px;
   }
-  .colorblock{
+  .infoitem {
+    width: 275px;
+    height: 50%;
+  }
+  .blackcolor {
+    flex: 3.5;
+  }
+  .colorblock {
     flex: 1;
-    height: 100%;
   }
-  @media only screen and (max-width: 1140px) {
-    .infoitems{
-      width:625px;
-    }
-    .infoitem{
-      width: 275px;
-      height: 50%;
-    }
-    .blackcolor{
-      flex: 3.5;
-      
-    }
-    .colorblock{
-      flex: 1;
-      
-    }
+}
+@media only screen and (max-width: 450px) {
+  .personalinfo__imgbox {
+    margin-left: 10px;
+  }
 
+  .personalinfo__text {
+    margin-left: 10px;
+    width: 250px;
   }
-  @media only screen and (max-width: 450px){
-    .personalinfo__imgbox{
-      margin-left: 10px;
-    }
-    
-    .personalinfo__text{
-      margin-left: 10px;
-      width: 250px;
-    }
-    
-    .infoitems{
-      width:375px;
-      
-    }
-    
-    .infoitems > div:nth-last-child(-n+2){
-      display: none;
-    }
-    .infoitems > div:first-child{
-      background-color: black;
-    }
-    .blackcolor{
-      display: none;
-    }
-    .socialbox{
-      display: block;
-    }
+
+  .infoitems {
+    width: 375px;
   }
-  
+
+  .infoitems > div:nth-last-child(-n + 2) {
+    display: none;
+  }
+  .infoitems > div:first-child {
+    background-color: black;
+  }
+  .blackcolor {
+    display: none;
+  }
+  .socialbox {
+    display: block;
+  }
+}
