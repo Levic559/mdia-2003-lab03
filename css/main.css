@@ -360,7 +360,6 @@ nav {
 .menutoggle {
   display: none;
 }
-
 .nav__menulist {
   flex: 1;
   height: 100%;
@@ -369,6 +368,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 @media only screen and (max-width: 72em) {
   nav.container {
     width: 53.75em;
